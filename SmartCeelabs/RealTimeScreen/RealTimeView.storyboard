@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Real Time Detail-->
+        <scene sceneID="gi0-p7-i9P">
+            <objects>
+                <viewController storyboardIdentifier="RealTimeDetailsViewController" id="ugc-Pi-lG1" customClass="RealTimeDetailsViewController" customModule="SmartCeelabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cqc-qF-WuG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gg-Hn-v7S">
+                                <rect key="frame" x="10" y="60" width="394" height="704"/>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Imn-V3-wRV">
+                                <rect key="frame" x="5" y="772" width="409" height="80"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="IYq-OF-p2L"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="paA-6H-8x2">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RealTimeDetailsCollectionViewCell" id="S6v-pu-OKZ" customClass="RealTimeDetailsCollectionViewCell" customModule="SmartCeelabs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="YCS-ea-mZY">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bj1-aU-EV0" userLabel="Phasne Label">
+                                                    <rect key="frame" x="43" y="53.5" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Bj1-aU-EV0" firstAttribute="centerY" secondItem="YCS-ea-mZY" secondAttribute="centerY" id="6O7-cd-mXE"/>
+                                                <constraint firstItem="Bj1-aU-EV0" firstAttribute="centerX" secondItem="YCS-ea-mZY" secondAttribute="centerX" id="u8h-Zn-eK4"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="realTimeDetailsCellLabel" destination="Bj1-aU-EV0" id="GOz-g4-bcx"/>
+                                            <outlet property="realTimeDetailsCellView" destination="YCS-ea-mZY" id="kwx-U9-5eG"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1ed-16-pMU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1ed-16-pMU" firstAttribute="bottom" secondItem="Imn-V3-wRV" secondAttribute="bottom" constant="10" id="PJT-Vm-LyF"/>
+                            <constraint firstItem="Imn-V3-wRV" firstAttribute="top" secondItem="7gg-Hn-v7S" secondAttribute="bottom" constant="8" id="RF7-9s-IYf"/>
+                            <constraint firstItem="7gg-Hn-v7S" firstAttribute="top" secondItem="1ed-16-pMU" secondAttribute="top" constant="16" id="WWn-XW-yws"/>
+                            <constraint firstItem="Imn-V3-wRV" firstAttribute="leading" secondItem="1ed-16-pMU" secondAttribute="leading" constant="5" id="aq8-Wf-x2e"/>
+                            <constraint firstItem="1ed-16-pMU" firstAttribute="trailing" secondItem="7gg-Hn-v7S" secondAttribute="trailing" constant="10" id="hbK-fX-Fep"/>
+                            <constraint firstItem="1ed-16-pMU" firstAttribute="trailing" secondItem="Imn-V3-wRV" secondAttribute="trailing" id="nKw-la-IGg"/>
+                            <constraint firstItem="7gg-Hn-v7S" firstAttribute="leading" secondItem="1ed-16-pMU" secondAttribute="leading" constant="10" id="pRJ-I5-1p0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Real Time Detail" id="EQt-jH-l5W"/>
+                    <connections>
+                        <outlet property="realTimeDetailsChartView" destination="7gg-Hn-v7S" id="5Tz-Pg-rlB"/>
+                        <outlet property="realTimeDetailsPhaseCollection" destination="Imn-V3-wRV" id="K9O-li-cnM"/>
+                        <outlet property="realTimeDetailsTitle" destination="EQt-jH-l5W" id="sHp-2y-cjZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nAp-9k-I5H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2779.7101449275365" y="1350.6696428571429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

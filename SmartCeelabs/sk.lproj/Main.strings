@@ -1,0 +1,195 @@
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "08H-VR-0is"; */
+//"08H-VR-0is.text" = "Label";
+//
+///* Class = "UILabel"; text = "AVG"; ObjectID = "0sW-MF-ZUv"; */
+//"0sW-MF-ZUv.text" = "AVG";
+//
+///* Class = "UINavigationItem"; title = "Devices"; ObjectID = "4I3-Ec-zbo"; */
+//"4I3-Ec-zbo.title" = "Devices";
+//
+///* Class = "UITabBarItem"; title = "Profile"; ObjectID = "4Ne-xD-krK"; */
+//"4Ne-xD-krK.title" = "Profile";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "4iL-dq-BGU"; */
+//"4iL-dq-BGU.text" = "Label";
+//
+///* Class = "UINavigationItem"; title = "Devices"; ObjectID = "5de-7N-Ftr"; */
+//"5de-7N-Ftr.title" = "Devices";
+//
+///* Class = "UINavigationItem"; title = "Analytics"; ObjectID = "7Ic-ht-43B"; */
+//"7Ic-ht-43B.title" = "Analytics";
+//
+///* Class = "UIButton"; configuration.title = " "; ObjectID = "7ow-hQ-sZR"; */
+//"7ow-hQ-sZR.configuration.title" = " ";
+//
+///* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7ow-hQ-sZR"; */
+//"7ow-hQ-sZR.normalTitle" = "Button";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "7uN-OY-gZA"; */
+//"7uN-OY-gZA.text" = "Label";
+//
+///* Class = "UILabel"; text = "OR"; ObjectID = "7wd-ql-SXv"; */
+//"7wd-ql-SXv.text" = "OR";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "ACV-aI-Hde"; */
+//"ACV-aI-Hde.text" = "Label";
+//
+///* Class = "UITextField"; placeholder = "Password"; ObjectID = "BjW-CC-Ls9"; */
+//"BjW-CC-Ls9.placeholder" = "Password";
+//
+///* Class = "UINavigationItem"; title = "Title"; ObjectID = "DDo-DM-9O8"; */
+//"DDo-DM-9O8.title" = "Title";
+//
+///* Class = "UILabel"; text = "MIN"; ObjectID = "Dxd-X2-25S"; */
+//"Dxd-X2-25S.text" = "MIN";
+//
+///* Class = "UILabel"; text = "0"; ObjectID = "EJ6-Xv-eY7"; */
+//"EJ6-Xv-eY7.text" = "0";
+//
+///* Class = "UILabel"; text = "MAX"; ObjectID = "Ejx-ta-3dg"; */
+//"Ejx-ta-3dg.text" = "MAX";
+//
+///* Class = "UILabel"; text = "per"; ObjectID = "EmB-V9-Kk1"; */
+//"EmB-V9-Kk1.text" = "per";
+//
+///* Class = "UILabel"; text = "Reactive Energy Chart"; ObjectID = "G36-5e-fHC"; */
+//"G36-5e-fHC.text" = "Reactive Energy Chart";
+//
+///* Class = "UITextField"; placeholder = "User"; ObjectID = "GBb-be-L32"; */
+//"GBb-be-L32.placeholder" = "User";
+//
+///* Class = "UILabel"; text = "today"; ObjectID = "GvP-d3-XK0"; */
+//"GvP-d3-XK0.text" = "today";
+//
+///* Class = "UITabBarItem"; title = "Devices"; ObjectID = "IZl-3O-M0a"; */
+//"IZl-3O-M0a.title" = "Devices";
+//
+///* Class = "UILabel"; text = "Smart Ceelabs"; ObjectID = "Ivp-wd-YUg"; */
+//"Ivp-wd-YUg.text" = "Smart Ceelabs";
+//
+///* Class = "UINavigationItem"; title = "Analytics Title"; ObjectID = "JOA-B1-Ct7"; */
+//"JOA-B1-Ct7.title" = "Analytics Title";
+//
+///* Class = "UILabel"; text = "Devices Group"; ObjectID = "JiQ-hK-ihR"; */
+//"JiQ-hK-ihR.text" = "Devices Group";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "KJo-ZJ-7Lv"; */
+//"KJo-ZJ-7Lv.text" = "Label";
+//
+///* Class = "UILabel"; text = "Full Name"; ObjectID = "Kb4-C8-h8V"; */
+//"Kb4-C8-h8V.text" = "Full Name";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "KsO-y2-Icd"; */
+//"KsO-y2-Icd.text" = "Label";
+//
+///* Class = "UINavigationItem"; title = "Profile"; ObjectID = "LQS-gc-VKZ"; */
+//"LQS-gc-VKZ.title" = "Profile";
+//
+///* Class = "UILabel"; text = "Profile"; ObjectID = "LUM-pj-hav"; */
+//"LUM-pj-hav.text" = "Profile";
+//
+///* Class = "UINavigationItem"; title = "Real Time Detail"; ObjectID = "N3G-wo-aaF"; */
+//"N3G-wo-aaF.title" = "Real Time Detail";
+//
+///* Class = "UILabel"; text = "Active Energy Chart"; ObjectID = "NCZ-Lr-dAx"; */
+//"NCZ-Lr-dAx.text" = "Active Energy Chart";
+//
+///* Class = "UILabel"; text = "Device Category"; ObjectID = "O1Z-Te-5YM"; */
+//"O1Z-Te-5YM.text" = "Device Category";
+//
+///* Class = "UILabel"; text = "Favourite devices"; ObjectID = "Oe6-Eo-rrJ"; */
+//"Oe6-Eo-rrJ.text" = "Favourite devices";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "RST-iZ-poH"; */
+//"RST-iZ-poH.text" = "Label";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "SQo-xc-0Le"; */
+//"SQo-xc-0Le.text" = "Label";
+//
+///* Class = "UILabel"; text = "Device Buildnig"; ObjectID = "ThZ-ZS-QZB"; */
+//"ThZ-ZS-QZB.text" = "Device Buildnig";
+//
+///* Class = "UINavigationItem"; title = "Device Detail"; ObjectID = "UPB-Aj-fZK"; */
+//"UPB-Aj-fZK.title" = "Device Detail";
+//
+///* Class = "UITabBarItem"; title = "Devices"; ObjectID = "UTz-BD-PLg"; */
+//"UTz-BD-PLg.title" = "Devices";
+//
+///* Class = "UILabel"; text = "0"; ObjectID = "VGj-ka-suQ"; */
+//"VGj-ka-suQ.text" = "0";
+//
+///* Class = "UILabel"; text = "Category"; ObjectID = "VOx-kB-cVB"; */
+//"VOx-kB-cVB.text" = "Category";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "Vg0-3U-iqp"; */
+//"Vg0-3U-iqp.text" = "Label";
+//
+///* Class = "UIButton"; configuration.title = "Log In"; ObjectID = "Wbn-Wc-w7J"; */
+//"Wbn-Wc-w7J.configuration.title" = "Log In";
+//
+///* Class = "UILabel"; text = "MeriTo Devices"; ObjectID = "ZyK-Vb-MPu"; */
+//"ZyK-Vb-MPu.text" = "MeriTo Devices";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "bMo-hW-UNS"; */
+//"bMo-hW-UNS.text" = "Label";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "bau-SU-ruI"; */
+//"bau-SU-ruI.text" = "Label";
+//
+///* Class = "UISegmentedControl"; egh-Zc-Ft1.segmentTitles[0] = "Last 24 hours"; ObjectID = "egh-Zc-Ft1"; */
+//"egh-Zc-Ft1.segmentTitles[0]" = "Last 24 hours";
+//
+///* Class = "UISegmentedControl"; egh-Zc-Ft1.segmentTitles[1] = "Last 14 days"; ObjectID = "egh-Zc-Ft1"; */
+//"egh-Zc-Ft1.segmentTitles[1]" = "Last 14 days";
+//
+///* Class = "UISegmentedControl"; egh-Zc-Ft1.segmentTitles[2] = "Last 12 months"; ObjectID = "egh-Zc-Ft1"; */
+//"egh-Zc-Ft1.segmentTitles[2]" = "Last 12 months";
+//
+///* Class = "UINavigationItem"; title = "Real Time"; ObjectID = "hXA-Yx-2ip"; */
+//"hXA-Yx-2ip.title" = "Real Time";
+//
+///* Class = "UISegmentedControl"; iJ0-iU-6Xh.segmentTitles[0] = "Last 24 hours"; ObjectID = "iJ0-iU-6Xh"; */
+//"iJ0-iU-6Xh.segmentTitles[0]" = "Last 24 hours";
+//
+///* Class = "UISegmentedControl"; iJ0-iU-6Xh.segmentTitles[1] = "Last 14 days"; ObjectID = "iJ0-iU-6Xh"; */
+//"iJ0-iU-6Xh.segmentTitles[1]" = "Last 14 days";
+//
+///* Class = "UISegmentedControl"; iJ0-iU-6Xh.segmentTitles[2] = "Last 12 months"; ObjectID = "iJ0-iU-6Xh"; */
+//"iJ0-iU-6Xh.segmentTitles[2]" = "Last 12 months";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "jpA-WZ-ele"; */
+//"jpA-WZ-ele.text" = "Label";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "lWa-DZ-wLe"; */
+//"lWa-DZ-wLe.text" = "Label";
+//
+///* Class = "UILabel"; text = "0"; ObjectID = "mMm-uU-sg3"; */
+//"mMm-uU-sg3.text" = "0";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "nkr-EL-W1U"; */
+//"nkr-EL-W1U.text" = "Label";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "q6s-5q-wFb"; */
+//"q6s-5q-wFb.text" = "Label";
+//
+///* Class = "UILabel"; text = "Current device location"; ObjectID = "qej-PB-72u"; */
+//"qej-PB-72u.text" = "Current device location";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "r4p-5H-6sP"; */
+//"r4p-5H-6sP.text" = "Label";
+//
+///* Class = "UILabel"; text = "Label"; ObjectID = "tc2-KT-uUE"; */
+//"tc2-KT-uUE.text" = "Label";
+//
+///* Class = "UILabel"; text = "Relay Devices"; ObjectID = "uUH-vB-uWC"; */
+//"uUH-vB-uWC.text" = "Relay Devices";
+//
+///* Class = "UILabel"; text = "Dashboard"; ObjectID = "vMP-VS-4l4"; */
+//"vMP-VS-4l4.text" = "Dashboard";
+//
+///* Class = "UILabel"; text = "Welcome in"; ObjectID = "x00-kk-1W6"; */
+//"x00-kk-1W6.text" = "Welcome in";
+//
+///* Class = "UIButton"; configuration.title = "Log Out"; ObjectID = "xgO-3u-pKv"; */
+//"xgO-3u-pKv.configuration.title" = "Log Out";

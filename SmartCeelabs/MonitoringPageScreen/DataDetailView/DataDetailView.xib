@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DataDetailViewController" customModule="SmartCeelabs" customModuleProvider="target">
+            <connections>
+                <outlet property="timeLabel" destination="yRl-pR-Mjf" id="vv4-8z-qQs"/>
+                <outlet property="unitLabel" destination="vcS-Tr-IcV" id="VF1-DA-F4r"/>
+                <outlet property="valueLabel" destination="LkW-fx-ShK" id="xjC-yp-EOf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="wef-su-xNv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="191"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRl-pR-Mjf">
+                    <rect key="frame" x="16" y="83.5" width="171" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LkW-fx-ShK">
+                    <rect key="frame" x="248" y="83.5" width="171" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37b-KZ-GtF">
+                    <rect key="frame" x="16" y="57.5" width="40" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" systemColor="systemGrayColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uptime in %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcS-Tr-IcV">
+                    <rect key="frame" x="321" y="57.5" width="98" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" systemColor="systemGrayColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="37b-KZ-GtF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="3w7-Pn-BN8"/>
+                <constraint firstItem="LkW-fx-ShK" firstAttribute="top" secondItem="vcS-Tr-IcV" secondAttribute="bottom" constant="4" id="6Ml-Wa-sX3"/>
+                <constraint firstItem="yRl-pR-Mjf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8A4-FM-YdQ"/>
+                <constraint firstItem="yRl-pR-Mjf" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.4" id="9a9-cn-m9j"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LkW-fx-ShK" secondAttribute="trailing" constant="8" id="Heb-LV-a4a"/>
+                <constraint firstItem="LkW-fx-ShK" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.4" id="NrU-tD-k08"/>
+                <constraint firstItem="yRl-pR-Mjf" firstAttribute="top" secondItem="37b-KZ-GtF" secondAttribute="bottom" constant="4" id="QvX-UA-KE4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vcS-Tr-IcV" secondAttribute="trailing" constant="8" id="Sy4-Qd-f28"/>
+                <constraint firstItem="yRl-pR-Mjf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="juc-iz-G6O"/>
+                <constraint firstItem="LkW-fx-ShK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="njW-ao-pQy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="147.10144927536234" y="391.40625"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

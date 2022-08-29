@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile Detail View Controller-->
+        <scene sceneID="egX-Zk-X00">
+            <objects>
+                <viewController storyboardIdentifier="ProfileDetailViewController" automaticallyAdjustsScrollViewInsets="NO" id="Mr5-8T-Oa9" customClass="ProfileDetailViewController" customModule="SmartCeelabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eIm-Ps-x5i">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hhd-Vp-CTs" userLabel="Time Line Collection View">
+                                <rect key="frame" x="8" y="52" width="374" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="k19-3g-Coq"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VEI-AA-Skr">
+                                    <size key="itemSize" width="114" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProfileTimeLineCell" id="qsX-o1-P2M" customClass="ProfileTimeLineCell" customModule="SmartCeelabs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="114" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="M7N-gi-zIe" userLabel="Time Line Cell View">
+                                            <rect key="frame" x="0.0" y="0.0" width="114" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvl-X7-RWb">
+                                                    <rect key="frame" x="36.333333333333329" y="14.999999999999998" width="41.333333333333329" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Qvl-X7-RWb" firstAttribute="centerX" secondItem="M7N-gi-zIe" secondAttribute="centerX" id="ChD-Ph-JyK"/>
+                                                <constraint firstItem="Qvl-X7-RWb" firstAttribute="centerY" secondItem="M7N-gi-zIe" secondAttribute="centerY" id="JxU-22-jhx"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="114" height="50"/>
+                                        <connections>
+                                            <outlet property="timeLineCellLabel" destination="Qvl-X7-RWb" id="IGM-Av-1HW"/>
+                                            <outlet property="timeLineCellView" destination="M7N-gi-zIe" id="RF8-pX-2YX"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPa-ZA-NTF" userLabel="Chart View">
+                                <rect key="frame" x="8" y="106" width="374" height="634"/>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gJG-za-hAF" userLabel="Phases Collection View">
+                                <rect key="frame" x="8" y="744" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kng-vR-Htw"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zzZ-sD-M9l">
+                                    <size key="itemSize" width="128" height="44"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProfileDetailPhaseCell" id="pjN-bY-3Rc" customClass="ProfileDetailPhaseCell" customModule="SmartCeelabs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HXX-27-YOI">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3s-gy-iJd" userLabel="Profile Phase Cell Label">
+                                                    <rect key="frame" x="43.333333333333329" y="11.666666666666666" width="41.333333333333329" height="20.666666666666671"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="m3s-gy-iJd" firstAttribute="centerX" secondItem="HXX-27-YOI" secondAttribute="centerX" id="nAn-w9-EYO"/>
+                                                <constraint firstItem="m3s-gy-iJd" firstAttribute="centerY" secondItem="HXX-27-YOI" secondAttribute="centerY" id="ss9-BF-B5P"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="128" height="44"/>
+                                        <connections>
+                                            <outlet property="profilePhaseLabel" destination="m3s-gy-iJd" id="ZMG-Nj-P19"/>
+                                            <outlet property="profilePhaseView" destination="HXX-27-YOI" id="fa9-7T-lCj"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XAM-YX-sSy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gJG-za-hAF" firstAttribute="top" secondItem="LPa-ZA-NTF" secondAttribute="bottom" constant="4" id="0cr-JA-1J5"/>
+                            <constraint firstItem="XAM-YX-sSy" firstAttribute="trailing" secondItem="Hhd-Vp-CTs" secondAttribute="trailing" constant="8" id="6uy-7a-Ufh"/>
+                            <constraint firstItem="Hhd-Vp-CTs" firstAttribute="leading" secondItem="XAM-YX-sSy" secondAttribute="leading" constant="8" id="DfQ-21-tax"/>
+                            <constraint firstItem="LPa-ZA-NTF" firstAttribute="top" secondItem="Hhd-Vp-CTs" secondAttribute="bottom" constant="4" id="FpJ-kM-16V"/>
+                            <constraint firstItem="XAM-YX-sSy" firstAttribute="trailing" secondItem="gJG-za-hAF" secondAttribute="trailing" constant="8" id="IA4-cG-W2x"/>
+                            <constraint firstItem="LPa-ZA-NTF" firstAttribute="leading" secondItem="XAM-YX-sSy" secondAttribute="leading" constant="8" id="L8U-w3-atg"/>
+                            <constraint firstItem="XAM-YX-sSy" firstAttribute="trailing" secondItem="LPa-ZA-NTF" secondAttribute="trailing" constant="8" id="Lh7-tt-ZQt"/>
+                            <constraint firstItem="XAM-YX-sSy" firstAttribute="bottom" secondItem="gJG-za-hAF" secondAttribute="bottom" constant="16" id="O7v-62-dvZ"/>
+                            <constraint firstItem="gJG-za-hAF" firstAttribute="leading" secondItem="XAM-YX-sSy" secondAttribute="leading" constant="8" id="wzv-dX-xnU"/>
+                            <constraint firstItem="Hhd-Vp-CTs" firstAttribute="top" secondItem="XAM-YX-sSy" secondAttribute="top" constant="8" id="zkg-FE-faU"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="profileChartView" destination="LPa-ZA-NTF" id="WjO-zJ-gd0"/>
+                        <outlet property="profilePhaseCollection" destination="gJG-za-hAF" id="nni-xE-qpL"/>
+                        <outlet property="profileTimeLineCollection" destination="Hhd-Vp-CTs" id="Ane-bi-joZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n6T-Eu-vwr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4545" y="1351.056338028169"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Monitoring Page View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MonitoringPageViewController" id="Y6W-OH-hqX" customClass="MonitoringPageViewController" customModule="SmartCeelabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B5C-LB-mAW">
+                                <rect key="frame" x="4" y="117" width="406" height="741"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cW-SM-Oyp">
+                                <rect key="frame" x="8" y="60" width="94.5" height="46"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gt-TO-kSW">
+                                <rect key="frame" x="0.0" y="108" width="414" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="0Oh-uD-HYp"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9rA-Vy-I2f">
+                                <rect key="frame" x="347.5" y="52" width="62.5" height="48"/>
+                                <menu key="menu" id="8e2-Zq-Th5">
+                                    <children>
+                                        <command title="Item 1" id="Lpi-aL-dWm"/>
+                                        <command title="Item 2" id="hGr-w6-Ttm"/>
+                                    </children>
+                                </menu>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" image="calendar" catalog="system" imagePlacement="top" title="">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.14901960784313725" green="0.77647058823529413" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9rA-Vy-I2f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6cW-SM-Oyp" secondAttribute="trailing" constant="4" id="7lU-FB-bCg"/>
+                            <constraint firstItem="9rA-Vy-I2f" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="8ce-YC-1DG"/>
+                            <constraint firstAttribute="trailing" secondItem="6Gt-TO-kSW" secondAttribute="trailing" id="Bhq-UJ-54Z"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="B5C-LB-mAW" secondAttribute="bottom" constant="4" id="HYi-rk-TZ8"/>
+                            <constraint firstItem="6cW-SM-Oyp" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="Hip-bk-lX5"/>
+                            <constraint firstItem="B5C-LB-mAW" firstAttribute="top" secondItem="6Gt-TO-kSW" secondAttribute="bottom" constant="8" id="IVu-Hu-wr4"/>
+                            <constraint firstItem="6Gt-TO-kSW" firstAttribute="top" secondItem="6cW-SM-Oyp" secondAttribute="bottom" constant="2" id="Rcd-a6-mYD"/>
+                            <constraint firstItem="B5C-LB-mAW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="4" id="VaE-kf-sYF"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="B5C-LB-mAW" secondAttribute="trailing" constant="4" id="WgW-2p-h2O"/>
+                            <constraint firstItem="6Gt-TO-kSW" firstAttribute="top" secondItem="9rA-Vy-I2f" secondAttribute="bottom" constant="8" id="dNl-HH-vzE"/>
+                            <constraint firstItem="6cW-SM-Oyp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="eL4-hz-Yj2"/>
+                            <constraint firstItem="6Gt-TO-kSW" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="hns-am-6QX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9rA-Vy-I2f" secondAttribute="trailing" constant="4" id="le6-Gh-Zud"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" destination="B5C-LB-mAW" id="iZE-ft-ADv"/>
+                        <outlet property="pageTitle" destination="6cW-SM-Oyp" id="2sO-yb-0Th"/>
+                        <outlet property="popupButton" destination="9rA-Vy-I2f" id="Zlg-Sa-AFi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="80.357142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
