@@ -325,7 +325,7 @@ struct ChartsModel {
         }
         
         if !dataSets.isEmpty {
-//            chart.xAxis.valueFormatter = xAxisFormmater
+            chart.xAxis.valueFormatter = xAxisFormmater
             chart.leftAxis.valueFormatter = yForm
             chart.data = BarChartData(dataSets: dataSets)
             chart.xAxis.drawLabelsEnabled = true
